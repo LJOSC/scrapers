@@ -1,4 +1,4 @@
-MIT License
+MIT License with Attribution, Modification Restriction, No Endorsement, and Disclaimer of Liability
 
 Copyright (c) 2024 LJOSC
 
@@ -9,8 +9,18 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. Users of this software are required to credit the project by prominently mentioning
+   the project name in any use or distribution of the software, including but not limited to
+   documentation, social media, and product advertisements.
+
+3. Modified versions of the software must also be open source and subject to the same
+   licensing terms as the original software.
+
+4. The names of contributors or project maintainers may not be used to endorse or promote
+   products derived from this software without specific prior written permission.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
