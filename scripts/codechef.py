@@ -43,8 +43,9 @@ def get_daily_solved_problems(html_content):
     
     return problems_by_day
 
-def main():
-    username = "USERNAME" # Replace with your username
+def scrap_codechef(username):
+    if not username:
+        raise Exception("Username is required.")
     [html_content, totalPages] = get_html_content(username, "undefined")
     solved_problems = {}
 
@@ -58,6 +59,10 @@ def main():
         print(f"Solved problems on {date}:")
         for problem in problems:
             print(f"  - {problem}")
+
+def main():
+    username = "USERNAME" # Replace with your username
+    scrap_codechef(username)
 
 if __name__ == "__main__":
     main()
