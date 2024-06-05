@@ -2,6 +2,31 @@
 
 This project is a collection of scripts that scrape user data from competitive coding platforms like LeetCode and Codeforces. It's designed to help users track their progress and performance.
 
+## Setup
+
+- Requires python.
+- Clone the Repository
+- Create a virtual environment
+
+#### For windows
+```powershell
+python -m venv .venv
+.venv/bin/activate
+pip install -r requirements.txt
+pre-commit autoupdate
+pre-commit install
+```
+
+#### For Linux
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pre-commit autoupdate
+pre-commit install
+```
+
+
 ## Usage
 
 To use these scripts, you need to have Python installed on your machine. Then, you can run the scripts from the command line with the appropriate arguments.
